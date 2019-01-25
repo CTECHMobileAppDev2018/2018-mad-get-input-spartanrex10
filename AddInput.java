@@ -11,6 +11,7 @@ public class AddInput {
         // if (??? != 2) {
         //    do something
         // }
+        // More advanced: What if the two inputs aren't integers? Then what? How cold you check that?
     
         // **** START HERE: ****
         // These two lines will get you the first two arguments 
