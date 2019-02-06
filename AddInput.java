@@ -14,11 +14,19 @@ public class AddInput {
         // More advanced: What if the two inputs aren't integers? Then what? How cold you check that?
     
         // **** START HERE: ****
+        //System.out.println("Please enter two integers:");
         // These two lines will get you the first two arguments 
         int a = Integer.parseInt(args[0]);
         int b = Integer.parseInt(args[1]);
-        int sum = 
+        int sum = a + b;
+        //Prevents more than 2 inputs
+        int num_args = args.length;
+        if (num_args != 2) {
+          System.out.println("Invalid Input");
+          System.exit(0);
+        }
         
+        System.out.println("The sum of " + a + " and " + b + " is " + sum);
         // Print out "The sum of _ and _ is _" where you actually print the numbers they enter and the sum
 
     }
